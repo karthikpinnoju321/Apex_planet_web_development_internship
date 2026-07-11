@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karthik Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>Karthik Pinnoju</h1>
+
+<p>Web Developer | Java Developer | CSE Student</p>
+
+<nav>
+
+<a href="#about">About</a>
+
+<a href="#projects">Projects</a>
+
+<a href="#todo">Todo</a>
+
+<a href="#products">Products</a>
+
+</nav>
+
+</header>
+
+<!-- About -->
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+
+I'm a Computer Science Engineering student passionate about Web Development,
+Java Programming and AI.
+
+</p>
+
+</section>
+
+<!-- Projects -->
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>AI Resume Analyzer</h3>
+
+<p>Smart Resume Analyzer using Spring Boot and AI.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Bus Ticket Booking</h3>
+
+<p>Online Bus Booking System using Java & MySQL.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Portfolio Website</h3>
+
+<p>Responsive personal portfolio using HTML CSS JS.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Todo -->
+
+<section id="todo">
+
+<h2>Todo List (Local Storage)</h2>
+
+<div class="todo-box">
+
+<input type="text" id="task" placeholder="Enter Task">
+
+<button onclick="addTask()">Add</button>
+
+</div>
+
+<ul id="list"></ul>
+
+</section>
+
+<!-- Products -->
+
+<section id="products">
+
+<h2>Product Listing</h2>
+
+<select id="filter">
+
+<option value="all">All</option>
+
+<option value="Laptop">Laptop</option>
+
+<option value="Phone">Phone</option>
+
+</select>
+
+<select id="sort">
+
+<option value="default">Sort</option>
+
+<option value="low">Low to High</option>
+
+<option value="high">High to Low</option>
+
+</select>
+
+<div id="productList" class="cards"></div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Karthik Pinnoju</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
