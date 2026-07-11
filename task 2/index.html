@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 | ApexPlanet Internship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Task 2 - Intermediate HTML, CSS & JavaScript</h1>
+</header>
+
+<div class="container">
+
+    <!-- Contact Form -->
+
+    <section class="card">
+
+        <h2>Contact Form</h2>
+
+        <form id="contactForm">
+
+            <input type="text" id="name" placeholder="Full Name">
+
+            <input type="email" id="email" placeholder="Email Address">
+
+            <textarea id="message" rows="5"
+                placeholder="Enter your message"></textarea>
+
+            <button type="submit">Send Message</button>
+
+            <p id="error"></p>
+
+        </form>
+
+    </section>
+
+    <!-- Todo List -->
+
+    <section class="card">
+
+        <h2>My To-Do List</h2>
+
+        <div class="todo">
+
+            <input type="text" id="taskInput"
+                placeholder="Enter a task">
+
+            <button onclick="addTask()">Add</button>
+
+        </div>
+
+        <ul id="taskList"></ul>
+
+    </section>
+
+</div>
+
+<footer>
+
+    <p>Created by Karthik Pinnoju ❤️</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
